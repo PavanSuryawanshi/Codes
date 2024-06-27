@@ -1,0 +1,26 @@
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+}
+#circle1{
+    background-image: linear-gradient(#080808, rgb(225, 225, 157));
+    right: 55%;
+    animation: circle 12s ease-in-out infinite alternate;
+
+}
+#circle2{
+    background-image: linear-gradient(rgb(150, 90, 194), rgb(14, 23, 100));
+    left: 45%;
+    animation: circle 12s ease-in-out infinite alternate-reverse;
+
+}
+@keyframes circle{
+    from{
+        top: 30%;
+    }
+    to{
+        top: 60%;
+    }
+}

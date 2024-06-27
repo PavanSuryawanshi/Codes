@@ -1,0 +1,21 @@
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: blue;
+}
+button:active{
+    background: red;
+}
+a:visited{
+    color: red;
+}
+.box1{
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 2px;
+}
+.box:hover .box1{
+    background: #000;
+}

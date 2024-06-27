@@ -1,0 +1,23 @@
+body{
+    height: 200vh;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    gap: 20px;
+    background: yellow;
+    margin-top: 50px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 1px solid black;
+}
+#box1{
+    position: sticky;
+    top: 0px;
+    left: 50px;
+
+}
