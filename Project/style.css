@@ -7,8 +7,8 @@
 }
 html, body{
     width: 100%;
-    height: 100%;
-    background-image: url(bg.png) ;
+    height: 700px;
+    background: url(bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,6 +24,7 @@ html, body{
 }
 .logo{
     width: 5%;
+    height: 100%;
 }
 .logo img{
     width: 100%;
@@ -43,7 +44,7 @@ html, body{
     color: white;
     text-decoration: none;
     padding: 2px 4px;
-    font-size: large;
+    font-size: 20px;
     border-radius: 8px;
     margin-left: 20px;
     font-family: sans-serif;
@@ -51,11 +52,12 @@ html, body{
 a:hover{
     background-color: white;
     color: black;
+    transition: 0.3s;
 }
 
 .home{
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -65,10 +67,10 @@ a:hover{
     margin-top: 11%;
 }
 p{
-    font-size: large;
+    font-size: 20px;
 }
 .home button{
-    margin-top: 32%;
+    margin-top: 31%;
     width: 120px;
     height: 40px;
     border: none;
@@ -85,7 +87,6 @@ p{
     display: flex;
     align-items: center;
     flex-direction: column;
-    
 
 }
 .service h1{
@@ -112,4 +113,85 @@ p{
 }
 .lists img{
     width: 150px;
+}
+
+/*service section completed*/
+
+.Clients{
+    height: 40vh;
+    background: url(bg2.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+.Clients h1{
+    font-size: 60px;
+    margin: 20px;
+    font-style:italic;
+}
+.images {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.images img{
+    height: 70%;
+    filter: drop-shadow(10px 10px 3px black);
+}
+.contact{
+    height: 75vh;
+    background: url(image.png);
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+}
+.contact h1{
+   font-size: 50px;
+   color: white;
+   text-align: center;
+   /* margin-top: 20%; */
+}
+.input{
+    width: 500px;
+    margin-top: 20px;
+}
+.input input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.input label{
+    margin-top: 10px;
+}
+.input label{
+    display: block;
+}
+footer{
+    background: #000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+}
+form button{
+    width: 30%;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-top: 40px;
+}
+form button:hover{
+    background: #889cbf;
 }
