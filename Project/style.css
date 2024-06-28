@@ -198,4 +198,5 @@ form button{
 }
 form button:hover{
     background: #889cbf;
+    transition: 0.3;
 }
