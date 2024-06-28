@@ -62,7 +62,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
     color: white;
     margin-top: 11%;
 }
@@ -70,7 +70,7 @@ p{
     font-size: 20px;
 }
 .home button{
-    margin-top: 31%;
+    margin-top: 29%;
     width: 120px;
     height: 40px;
     border: none;
@@ -111,6 +111,10 @@ p{
     flex-direction: column;
     gap: 20px;
 }
+.lists p{
+    width: 300px;
+    height: 300vh;
+}
 .lists img{
     width: 150px;
 }
@@ -120,6 +124,7 @@ p{
 .Clients{
     height: 40vh;
     background: url(bg2.jpg);
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -158,7 +163,6 @@ p{
    font-size: 50px;
    color: white;
    text-align: center;
-   /* margin-top: 20%; */
 }
 .input{
     width: 500px;
