@@ -74,10 +74,16 @@ p{
     width: 120px;
     height: 40px;
     border: none;
+    font-size: large;
+    font-style: normal;
     border-radius: 20px;
     align-items: center;
     background: rgb(44, 175, 120);
     
+}
+.home button:hover{
+    background: white;
+    box-shadow: #000 1px 1px 1px 1px;
 }
 .Service{
     height: 80vh;
@@ -176,6 +182,7 @@ p{
 }
 .input label{
     margin-top: 10px;
+    color: white;
 }
 .input label{
     display: block;

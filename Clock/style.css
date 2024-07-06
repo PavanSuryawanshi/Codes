@@ -1,3 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background: rgb(2,0,36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .circle{
     width: 200px;
     height: 200px;
@@ -5,14 +18,14 @@
     position: absolute;
 }
 #circle1{
-    background-image: linear-gradient(#080808, rgb(225, 225, 157));
-    right: 55%;
+    background-image: linear-gradient(rgb(61, 18, 43), rgb(242, 8, 172), rgb(233, 233, 233));
+    right: 50%;
     animation: circle 12s ease-in-out infinite alternate;
 
 }
 #circle2{
-    background-image: linear-gradient(rgb(150, 90, 194), rgb(14, 23, 100));
-    left: 45%;
+    background-image: linear-gradient(rgba(39, 26, 112, 0), rgb(179, 225, 131));
+    left: 50%;
     animation: circle 12s ease-in-out infinite alternate-reverse;
 
 }
@@ -23,4 +36,30 @@
     to{
         top: 60%;
     }
+}
+.clock{
+    z-index: 10;
+    background:rgba(99, 92, 92, 0.414);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 12px;
+    padding: 10px 40px;
+    backdrop-filter: blur(10px);
+}
+.box{
+    height: 120px;
+    width: 120px;
+    background:rgb (255,25,255,0.5);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: 70px;
+    font-family: sans-serif;
+
+
+
 }
